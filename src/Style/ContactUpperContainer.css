@@ -1,0 +1,161 @@
+
+.Contact-full-container{
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    color: #424242;
+    /* background-color: aqua; */
+    
+}
+
+.contact-box{
+    height: 21vh;
+    width: 21vh ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: #2fc795; */
+    border-color: #f4f4f5;
+    border-style: solid;
+    transition: 0.9s;
+}
+
+.contact-box:hover{
+    border-color: #94618E;
+    background-color: #f4f4f5;
+}
+
+.contact-container-logo{
+    margin: 0;
+    padding: 0%;
+}
+
+.contact-box-icon{
+    font-size: 30px;
+    color: #94618E;
+    
+}
+.contact-box-container{
+    display: flex;
+}
+
+.contact-box-button{
+    background-color: #424242;
+    color: #f4f4f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    height: 1.5rem;
+    width: 5rem;
+    margin-top: 20px;
+}
+
+@media (max-width:999px) {
+ 
+    .Contact-full-container{
+        
+        gap: 1rem;
+        
+    }
+
+
+}
+
+@media (max-width:800px) {
+
+    .Contact-full-container{
+        
+        gap: 0.5rem;
+        
+    }
+
+
+    .contact-box-icon{
+        font-size: 27px;
+        
+    }
+ 
+    .contact-box{
+        height: 19vh;
+        width: 19vh ;
+        font-size: 14px;
+    }  
+    
+    .contact-box-button{
+        
+        font-size: 12px;
+        border: none;
+        border-radius: 10px;
+        height: 1.3rem;
+        width: 4rem;
+        
+    }
+
+
+}
+
+@media (max-width:700px){
+
+ 
+    .Contact-full-container{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+     
+        
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        /* background-color: aqua; */
+        
+    }
+
+    .contact-box{
+       
+        height: auto;
+        width: 15rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+       font-size: 13px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       gap: 1rem;
+        /* border: #2fc795; */
+        border-color: #f4f4f5;
+        border-style: solid;
+    }
+
+
+    .contact-box p button{
+        margin: 0;
+        padding: 0%;
+        background-color: aqua;
+
+    }
+
+    .contact-box-button{
+        display: none;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .Contact-full-container{
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+       
+        
+    }
+
+}

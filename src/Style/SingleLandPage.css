@@ -1,0 +1,161 @@
+.image-container-single-landing{
+    margin-top: 0.5rem;
+    height: 50vh;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.one-two-land-image-contaier{
+    /* background-color: beige; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+.div-one-land-image{
+    flex: 1;
+    overflow: hidden;
+    /* background-color: brown; */
+}
+.div-two-land-image{
+    flex: 1;
+    overflow: hidden;
+    /* background-color: rgb(52, 22, 22); */
+}
+
+.div-third-land-image{
+    overflow: hidden;
+    /* background-color: rgb(36, 114, 88); */
+    flex: 6;
+}
+
+.width-land-image{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+.land-page-all-main-content{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    /* background-color: aqua; */
+}
+
+.land-page-content-container{
+    flex: 1;
+}
+
+.land-page-gif-container{
+    flex: 1;
+}
+
+.land-google-map{
+    height: 57vh;
+}
+
+.hey{
+    background-color: #94618E;
+    color: aliceblue;
+    font-size: 15px;
+    height: 4vh;
+    width: 16vh;
+    margin: 0%;
+    border: none;
+}
+
+.app-container {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity for the blur effect */
+    backdrop-filter: blur(5px); /* Apply blur to the background */
+  }
+  
+  .popup {
+    height: 50vh;
+    width: 40vh;
+    position: relative;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+  .save-card{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+
+  .add-new-card{
+    margin-top: 1.5rem;
+    gap: 0.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .number-exp-date{
+    display: flex;
+    gap: 12px;
+  }
+  
+
+  .exp-date{
+    width: 5vh;
+  }
+
+  .cvv{
+    width: 5vh;
+  }
+
+  .hello-label{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .full-popup-container input{
+    height: 1.5rem;
+    background-color: #dde2e0;
+    border: none;
+  }
+
+  .close-pop{
+    margin-top: 2rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: #94618E;
+    color: aliceblue;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+  }

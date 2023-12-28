@@ -1,0 +1,49 @@
+.land-full-container{
+    
+}
+
+.land-all-content-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.external-div-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.image-content{
+    height: 40vh;
+    overflow: hidden;
+}
+
+.env-background{
+    /* height: 40vh; */
+    /* display: flex; */
+    width: 100%;
+    display: block;
+    
+}
+
+.land-search-container{
+    margin-top: -30px;
+}
+.landcontainer-searchbar{
+    height: 3rem;
+    width: 20rem;
+    border-color: #94618E;
+    border: solid;
+}
+
+.landcontainer-searchbar-button{
+    height: 3.3rem;
+    width: 6rem;
+    background-color: #94618E;
+    color: aliceblue;
+    border: #94618E;
+}

@@ -1,0 +1,125 @@
+
+
+.single-product-full-container{
+
+   width: 30vh;
+   /* height: 70vh; */
+    background-color: #fefefe;
+    /* background-color: #2fc795; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.single-product-full{
+    width: 30vh;
+    /* height: 10vh; */
+ text-decoration: none;
+}
+
+.single-product-image-title {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0.5rem; */
+    height: 20vh;
+    position: relative;
+}
+
+
+.single-product-image-title span{
+    position: absolute;
+    background-color: #fefefe;
+    color: #959595;
+    font-size: 14px;
+    /* z-index: 5; */
+    /* top: 1; */
+    margin-top: -12vh;
+   margin-right: -13vh;
+   padding-right: 13px;
+   padding-left: 13px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   border-radius: 20px;
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: center; */
+   transition: 0.9s;
+ 
+}
+.single-product-image{
+    width:auto;
+    height: 10px;
+}
+
+.single-product-image-title span:hover{
+    position: absolute;
+    background-color:#959595 ;
+    color: #fefefe;
+   
+ 
+}
+
+.single-product-image-title img{
+   
+    width:95% ;
+    height: 95%;
+    filter: brightness(90%);
+    
+    /* position: relative; */
+}
+
+.single-product-image-title img:hover{
+   
+    width:100% ;
+    height: 100%;
+    filter: brightness(55%);
+    transition: 0.5s;
+    
+  
+}
+
+.single-product-price-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    gap: 3rem;
+}
+
+.product-name{
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        text-align: left;
+        color: #424242;
+        /* background-color: blue; */
+
+
+}
+
+.product-price{
+    display: flex;
+    text-align: end;
+    /* background-color: aqua; */
+    justify-content:end;
+    color: #94618E;
+
+}
+
+.edit-card{
+    width: 20v;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 20px;
+}
+
+
+.width-height-land-container{
+    height: 25vh;
+    width: 30vh;
+    /* background-color: #424242; */
+}

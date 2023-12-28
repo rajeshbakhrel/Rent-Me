@@ -1,0 +1,106 @@
+.full-room-container-hostel{
+    display:flex ;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+    height: 35vh;
+    margin: 20px;
+}
+
+.rajesh{
+    display: flex;
+    flex-direction: column;
+}
+.room-one-container{
+    flex: 1;
+    /* height: 35vh; */
+    background-color: #eaedea;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.row-one-room{
+    
+    flex: 1;
+    margin-top: 1rem;
+}
+
+.row-two-room{
+    margin-top: 1rem;
+    flex: 1;
+}
+
+.row-three-room{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.room-two-container{
+    background-color: #eaedea;
+    flex: 1;
+    display: flex;
+    font-size: 3rem;
+    /* background-color: #bcbebc; */
+}
+.room-three-container{
+    flex: 1;
+    background-color: #eaedea;
+    display: flex;
+    font-size: 3rem;
+}
+.room-four-container{
+    flex: 1;
+    background-color: #eaedea;
+    display: flex;
+    font-size: 3rem;
+}
+
+.bed-hostel-red{
+    color: red;
+}
+
+.bed-hostel-blank{
+    color: #949494;
+}
+
+.room-name{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.name-one{
+    flex: 1;
+}
+.name-two{
+    flex: 1;
+}
+.name-three{
+    flex: 1;
+}
+
+.name-four{
+    flex: 1;
+}
+
+.topic-room-bed{
+    color: #94618E;
+    display: flex;
+    margin-left: 5rem;
+    font-weight: 500;
+}
+
+
+.bed-hostel-blank {
+    color: #9fa09f;
+  }
+  
+  .bed-hostel-blank.active {
+    color: #2fc795;
+  }

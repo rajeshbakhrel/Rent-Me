@@ -1,0 +1,37 @@
+.full-errorpage-container{
+
+    background-color: #fefefe;
+    min-height: 55vh;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Error-header{
+    color: #424242;
+    font-size: 4rem;
+}
+
+.Error-content{
+    color: #424242;
+    font-size: 2rem;
+
+
+}
+.Error-header{
+    margin: 0;
+}
+
+.full-errorpage-container button{
+
+    /* background-color: #424242; */
+    background-color: #94618E;
+    min-height: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fefefe;
+}

@@ -1,0 +1,161 @@
+.CommonSection-full-container{
+    display: flex;
+    height: 60vh;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 6rem;
+}
+
+.CommonSection-first-container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content:center;
+    margin-left: 8rem;
+    /* background-color: aqua; */
+    
+}
+
+
+.common-hero-section-title-container{
+    /* background-color: aquamarine; */
+    display: flex;
+    font-size: 50px;
+    /* width: 30vh; */
+    justify-content: left;
+    /* margin-top: 3rem; */
+    margin-bottom: 10px;
+    color: #94618E;
+}
+.common-hero-section-content-container{
+    /* width: 64vh; */
+    color: #424242;
+    font-size: 18px;
+    text-align: left;
+}
+
+.common-hero-section-button-container{
+    background-color: #424242;
+    color: #f4f4f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 16px;
+    border: none;
+    height: 3rem;
+    width: 13rem;
+    margin-top: 20px;
+}
+
+
+.CommonSection-second-container{
+    flex: 3;
+    /* background-color: blue; */
+}
+
+.image-section-common-section{
+    height: 65vh;
+    /* width: 65vh; */
+    /* background-color: aqua; */
+}
+
+
+@media (max-width:1130px){
+    .common-hero-section-title-container{
+       
+        font-size: 37px;
+        justify-content: left;
+        margin-bottom: 8px;
+      
+    }
+}
+
+@media (max-width:999px) {
+    
+    .common-hero-section-title-container{
+       
+        font-size: 37px;
+        justify-content: left;
+        margin-bottom: 8px;
+      
+    }
+
+    .common-hero-section-content-container{
+      
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media (max-width:900px) {
+    
+    .CommonSection-second-container{
+        display: none;
+    }
+
+    .common-hero-section-content-container{
+      margin-right: 6rem;
+    }
+
+}
+
+@media (max-width:500px) {
+    
+
+    .common-hero-section-title-container{
+       
+        font-size: 30px;
+        justify-content: left;
+        margin: 0px;
+        padding: 0;
+        
+      
+    }
+   
+    .common-hero-section-content-container{
+      margin-right: 3rem;
+    }
+
+    .CommonSection-first-container{
+        
+        margin-left: 5rem;
+       
+        
+    }
+
+    .common-hero-section-button-container{
+       
+        gap: 0rem;
+        font-size: 14px;
+        border: none;
+        height: 2.5rem;
+        width: 11rem;
+        margin-top: 20px;
+    }
+
+    .CommonSection-full-container{
+        display: flex;
+        height: 53vh;
+        background-color: #f4f4f5;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+    .CommonSection-first-container{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content:center;
+        margin-left: 3rem;
+        /* background-color: aqua; */
+        
+    }
+
+}
